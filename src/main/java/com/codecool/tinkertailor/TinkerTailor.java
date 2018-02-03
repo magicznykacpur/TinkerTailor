@@ -33,8 +33,4 @@ public class TinkerTailor {
         return numbers;
     }
 
-    public static void main(String[] args) {
-        TinkerTailor tt = new TinkerTailor();
-        System.out.println(tt.tinkerTailor(5, 3));
-    }
 }
