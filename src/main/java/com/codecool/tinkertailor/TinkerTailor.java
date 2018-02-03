@@ -12,7 +12,7 @@ public class TinkerTailor {
         int removed;
         int startIndex = 0;
 
-        while (numbers.set() > 0) {
+        while (numbers.size() > 0) {
             int numberToRemove = (startIndex + k - 1) % numbers.size();
             removed = numbers.get(numberToRemove);
             numbers.remove(numberToRemove);
